@@ -86,8 +86,15 @@ nav ul li a {
   font-weight: 600;
 }
 
+nav ul li a {
+  transition: all 0.9s ease; /* Adds transition to all properties */
+}
+
 nav ul li a:hover {
   border-bottom: 2px solid #e4b95b;
+  color: #e4b95b; 
+  background-color: #f7f7f7;
+
 }
 
 header .content {
